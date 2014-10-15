@@ -11,7 +11,7 @@ class index:
 										<head>
 										<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
 										</head>
-										<body><p>Estilo de párrafo</p>
+										<body><p>Estilo de parrafo</p>
 										</body>
 									</html>"""
 
