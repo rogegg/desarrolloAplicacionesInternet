@@ -9,7 +9,7 @@ class index:
     def GET(self):
         return """<html>
 										<head>
-										<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+										<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen"/>
 										</head>
 										<body><p>Estilo de parrafo</p>
 										</body>
