@@ -37,7 +37,17 @@ class pag2:
 										</body>
 									</html>"""
 
+def notfound():
+    return web.notfound("Sorry, the page you were looking for was not found.")
+
+    # You can use template result like below, either is ok:
+    #return web.notfound(render.notfound())
+    #return web.notfound(str(render.notfound()))
+
+
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
+		app.notfound = notfound
     app.run()
+
