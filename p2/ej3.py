@@ -2,8 +2,8 @@
 import web
 
 urls = (
-    '/', 'index' 
-		'/pag1','pag1'
+    '/', 'index' ,
+		'/pag1','pag1',
 		'/pag2','pag2'
 )
 
